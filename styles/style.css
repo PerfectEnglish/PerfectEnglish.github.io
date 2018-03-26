@@ -1,0 +1,12 @@
+.nav-item {
+    font-size: 16px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+section .container, section li {
+    margin: 2rem auto;
+}
