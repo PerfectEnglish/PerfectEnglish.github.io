@@ -1,3 +1,6 @@
+body {
+    min-width: 570px;
+}
 .verticalOffset20 {
     margin-top: 20px;
 }
@@ -7,9 +10,7 @@
 .nav-item {
     font-size: 16px;
 }
-#navbarCollapse {
-    max-height: 50px;
-}
+
 .parallax-window {
     min-height: 400px;
     background: transparent;
@@ -17,4 +18,13 @@
 
 section .container, section li {
     margin: 2rem auto;
+}
+
+
+/* footer */
+.list-footer {
+    padding: 0;
+}
+.list-footer li{
+    list-style: none;
 }
