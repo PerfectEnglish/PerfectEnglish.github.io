@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Perfect English</title>
+
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="styles/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="styles/carousel.css" rel="stylesheet">
+
+
+    <link href="styles/style.css" rel="stylesheet">
+
+    <link rel="import" href="templates/header.html">
+    <link rel="import" href="templates/footer.html">
+    <script defer src="js/fontawesome/fontawesome-all.js"></script>
+</head>
+<body>
+
+<!-- HEADER -->
+<script>
+    var link = document.querySelector('link[rel=import][href*="header"]');
+    var content = link.import.querySelector('#header');
+    document.body.appendChild(content.cloneNode(true));
+</script>
+
+<!-- CONTENT -->
+<div class="container">
+    <div class="row verticalOffset20">
+        <div class="row">
+            <h1>О школе</h1>
+
+            <p>Наша школа создана для того, чтобы помочь Вам улучшить английский язык. Наши ученики обучаются языку
+                комплексно: разговорная речь, письмо, чтение и аудирование.</p>
+            <p>К каждому ученику ищется индивидуальный подход.</p>
+
+        </div>
+        <div class="row">
+            <div><p>Наши учителя: </p></div>
+            <div class="col-md-12">
+                <h2 class="featurette-heading">Овчарова Алла Владимировна:</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="rounded-circle"
+                             src="img/newV/face.jpg"
+                             alt="Generic placeholder image" width="140" height="140">
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list">
+                            <li class="no-mark"><p class="lead"><i class="fas fa-check"></i> Закончила ДонНУ, факультет
+                                иностранных языков</p></li>
+                            <li class="no-mark"><p class="lead"><i class="fas fa-check"></i> Обладает огромным опытом
+                                работы
+                                с
+                                детьми и взрослыми</p></li>
+                            <li class="no-mark"><p class="lead"><i class="fas fa-check"></i> Получила множество дипломов
+                                признания</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div><p>Обладает такими наградами:</p></div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4 centered">
+                        <img class="rounded-circle"
+                             src="img/newV/face.jpg"
+                             alt="Generic placeholder image" width="140" height="140">
+                        <h2>Победа там</h2>
+                        <p>Невероятно круто</p>
+                    </div><!-- /.col-md-4 -->
+
+                    <div class="col-md-4 centered">
+                        <img class="rounded-circle"
+                             src="img/newV/face.jpg"
+                             alt="Generic placeholder image" width="140" height="140">
+                        <h2>Победа сям</h2>
+                        <p>Невероятно круто</p>
+                    </div><!-- /.col-md-4 -->
+
+                    <div class="col-lg-4 centered">
+                        <img class="rounded-circle"
+                             src="img/newV/face.jpg"
+                             alt="Generic placeholder image" width="140" height="140">
+                        <h2>И просто самая умная</h2>
+                        <p>Невероятно круто</p>
+                    </div><!-- /.col-md-4 -->
+                </div>
+            </div>
+        </div><!-- /.row -->
+    </div>
+</div>
+<hr>
+
+<!-- FOOTER -->
+<script>
+    var linkFooter = document.querySelector('link[rel=import][href*="footer"]');
+    var contentFooter = linkFooter.import.querySelector('#footer');
+    document.body.appendChild(contentFooter.cloneNode(true));
+</script>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/parallax.min.js"></script>
+<script type="text/javascript" src="js/bootstrap/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/start.js"></script>
+<script type="text/javascript">
+    $('.about-nav').addClass('active');
+</script>
+
+</body>
+</html>
